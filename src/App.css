@@ -1,0 +1,90 @@
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #0b72b5;
+  color: white;
+  padding: 10px;
+}
+
+main {
+  padding-bottom: 30px;
+  background-color: #FFFDD0;
+}
+
+article {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 120vh;
+  border-radius: 7px;
+  border: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.publishing-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #DCDCDC	;
+}
+
+.article-image {
+  width: 100%;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+button {
+  cursor: pointer;
+  border: 0 none;
+  color: white;
+  background-color: #0b72b5;
+  width: 30vh;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 5vh;
+}
+
+.header {
+  background-color: #0b72b5;
+  color: white;
+  padding: 10px;
+}
+
+section {
+  padding: 10px;
+}
+
+.apiLogo {
+  display: flex;
+  position: absolute;
+  left: 10vh;
+  gap: 10px;
+  color: white;
+  background-color: white;
+  background-color:#0b72b5;
+  border: solid beige;
+  border-radius: 5px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+span {
+  border: #0b72b5 solid;
+  color: #0b72b5;
+  background-color: white;
+  padding: 0 10px;
+}
